@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{  font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgheader{
+    margin-left: 250px;
+}
+
+.container-header {
+    background:#2E948A;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    float: right;
+    flex-wrap: wrap;
+}
+
+.menu-header{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    float: right;
+    flex-wrap: wrap-reverse; 
+    margin-top: 15px;
+    margin-left: 25px;
+    color:#FDFDFD ;
+    font: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.ul-list-menu{
+    margin-left: 25px; 
+}
+
+
+@media (min-widht: 768px)
+{
+    .flex-row{
+        flex-direction: row!important; /*row apenas na @mediaqueryes 768 (tablet).*/
+    }
+}
+
+@media (min-widht: 480px) /*mediaqueryes celular*/
+{
+    .container-header{
+        max-width: 480px;
+    }
+}
