@@ -152,6 +152,7 @@ padding-top: 12px;
     line-height: 19.53px;
     font-weight: 300;
     text-align: center;
+
 }
 
 .newbox-2 button{
@@ -164,6 +165,7 @@ padding-top: 12px;
     color: #F7F7F7;
     font-size: 20px;
     border-color: #FF4081;
+    cursor: pointer;
 }
 
 .nbox button span{
@@ -172,6 +174,7 @@ padding: 20px;
 }
 
 /*testmony-container*/
+
 .testmony-container{
     padding: 60px;
 }
@@ -184,4 +187,95 @@ padding: 20px;
     line-height: 50.47px;
     color: #009688;
     padding-left: 100px;
+}
+
+.test-img{
+    box-sizing: content-box;
+    border: 3px solid #FF4081;
+    border-radius: 70px;
+    width: 76px;
+    padding: 12px; /*corrigir*/
+}
+
+.testemony-text{
+    display: flex;
+    padding-left: 20px;
+}
+
+.grid{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-family: 18px;
+    font-weight: 300;
+    color: #000000;
+
+}
+
+
+.testemony-text p{
+    margin-left: 50px;
+    flex-direction: row;
+    
+}
+
+.testemony-text span{
+padding-top: 30px;
+font-size: 18px;
+font-weight: 500;
+margin-top: 20px;
+
+}
+
+/*section - mais conteúdo para você*/
+
+.more{
+    background-color:#E5E5E5;
+}
+
+.content-more h2{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 42.51px;
+    padding: 50px;
+    color: #009688;
+}
+
+.more-flex{
+    display: flex;
+    padding: 60px;
+    }
+
+.content-one p{
+    color: #009688;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31.02px;
+}
+
+.content-one p span{
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.68px;
+}
+.button-f{
+padding-left: 50%;
+padding-top: 40px;
+}
+
+.button-f button{
+box-sizing: border-box;
+border: 2px solid #FF4081;
+border-radius: 62px;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #FF4081;
+padding: 10px;
+}
+
+.footer{
+    background-color: #2E948A;
 }
