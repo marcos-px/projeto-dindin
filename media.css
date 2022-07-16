@@ -173,10 +173,42 @@ font-size: 25px;
     padding-left: 25%;
     }
 
-} 
-
-
+.footer{
+    background-color: #2E948A;
+    display: block;
+    width: 375px;
+    height: 500px;
+}
+#footer-img{
+    padding-left: 50px;
   
+}
+.button-f{
+
+    margin-left: 30px; 
+ }
+
+ .list-menu{
+    display: block;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.curso-investimento h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    }
+.curso-investimento p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+        }
+video{
+    height: 200px;
+    box-sizing: border-box;
+}
+} 
 
   @media screen and (max-width: 900px) {
         /* responsividade blog */
@@ -330,6 +362,11 @@ font-size: 25px;
     }
     .button-f-m{
         padding-left: 25%;
+        }
+.list-menu{
+            display: block;
+            justify-content: center;
+            margin-left: 35%;
         }
   } 
   

@@ -59,9 +59,10 @@ box-sizing: border-box;
 
 .list-menu{
     display: flex;
-    padding-left: 50%;
+    justify-content: space-between;
     list-style: none;
     align-items: center;
+    margin-left: 30%;
 }
 
 .list-item{
@@ -253,6 +254,7 @@ margin-top: 20px;
 .more-flex{
     display: flex;
     padding: 60px;
+    background-color:#E5E5E5;
     }
 
 .content-one p{
@@ -260,6 +262,7 @@ margin-top: 20px;
     font-weight: 700;
     font-size: 27px;
     line-height: 31.02px;
+    
 }
 
 .content-one p span{
@@ -284,7 +287,7 @@ padding: 10px;
 cursor: pointer;
 }
 
-.button-f-m button span{
+.button-f-m button span a{
 font-size: 25px;
 color: #FF4081;
 text-decoration: none;
@@ -296,12 +299,14 @@ text-decoration: none;
 .f-div{
     margin-top: 40px;
     display: flex;
+    justify-content: space-between;
     background-color: #2E948A;
 }
 .footer{
     background-color: #2E948A;
     display: flex;
-    justify-content: baseline;
+    width: 400px;
+    height: 250px;
 }
 
 #footer-img{
@@ -320,12 +325,11 @@ text-decoration: none;
 
 }
 #span-footer{
-    font-size: 10px;
+    font-size: 14px;
     display: flex;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-left: 10px;
     font-weight: 300;
-    font-size: 19px;
     line-height: 22px;
 
 }
@@ -335,7 +339,6 @@ text-decoration: none;
     padding-left: 25%;
     list-style: none;
     align-items: center;
-    margin-top: 40px;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -349,21 +352,25 @@ text-decoration: none;
     margin-bottom: 14px;
 }
 .button-f{
- font-weight: 400;
- font-size: 20px;
- font-weight: 400;
+
 border: 2px solid #FFFFFF;
 border-radius: 62px;
 cursor: pointer;
-margin-top: 40px;
+margin-top: 30px;
 margin-left: 300px; 
 width: 289px;
 top: 50px;
 padding-left: 14px;
 margin-left: 100px0,0;
 background-color: #2E948A;
-color: #F7F7F7;
 padding: 10px;
+
+}
+.button-f a {
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /*formulario main*/
@@ -501,7 +508,7 @@ hr{
     margin-left: 10%;
 }
 
-/*página curso*/
+/*página curso-individual*/
 
 .curso-initial{
     display: flex;
