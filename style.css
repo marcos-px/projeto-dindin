@@ -581,3 +581,37 @@ text-align: center;
     margin-top: 6%;
 }
 
+/*Página Blog*/
+.blog-container{
+display: flex;
+justify-content: space-between;
+flex: auto;
+flex-wrap: nowrap;
+padding: 10%;
+
+}
+
+.blog-init h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+}
+
+.blog-init p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 6%;
+}
+
+.blog-init h1,p{
+    margin-right: 40%;
+    margin-top: 10%;
+}
+
+.flex-blog{
+    display: flex;
+    padding: 4% 10%;
+    
+}
