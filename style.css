@@ -279,11 +279,12 @@ border: 2px solid #FF4081;
 border-radius: 62px;
 font-weight: 400;
 line-height: 29px;
+color: #FF4081;
 padding: 10px;
 cursor: pointer;
 }
 
-.button-f-m button span a{
+.button-f-m button span{
 font-size: 25px;
 color: #FF4081;
 text-decoration: none;

@@ -97,14 +97,88 @@
     .frame-post{
         height: 200px;
     }
-    
+    /*responsividade do index*/
+    .content{
+        display: block;
+    }
+    .img-top{
+        display: none;
+        position: relative;
+    }
+
+    .titulo-top h1{
+        font-size: 30px;
+        line-height: 25px;
+        position: relative;
+    }
+
+    .titulo-top p{
+        font-size: 20px;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .button-top button{
+     margin-top: 200px;
+    padding: 12px;
+    border: 0px;
+
+  }
+
+  .button-top button a{
+    position: absolute;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 20px;
+  }
   
+  .newbox-2{
+    display: inline;
+  }
+  .nbox{
+    padding-top: 40%;
+    padding-left: 12px;
+    align-items: center;
+    margin-left: 42px;
+  }
+  .grid{
+    display: block;
+    padding-top: 2px;
+}
+.test-img{
+    box-sizing: content-box;
+    width: 70px;
+    height: 70px;
+    margin-top: 150px;
+}
+.testemony-text p{
+    margin-top: 50px;
+    
+}
+.content-more h2{
+font-size: 25px;
+}
+.more-flex{
+    display: block;
+}
+.content-one p span{
+    line-height: 18px;
+}
+.content-one img{
+    width: 150px;
+    height: 50%;
+
+}
+.button-f-m{
+    padding-left: 25%;
+    }
+
 } 
 
 
   
 
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 900px) {
         /* responsividade blog */
 
     .frame-blog p {
@@ -180,6 +254,83 @@
     video{
         padding: 40px;
     }
+
+        /*responsividade do index*/
+        .content{
+            display: block;
+        }
+        .img-top{
+            display: none;
+            position: relative;
+        }
+    
+        .titulo-top h1{
+            font-size: 30px;
+            line-height: 25px;
+            position: relative;
+        }
+    
+        .titulo-top p{
+            font-size: 20px;
+            line-height: normal;
+            position: absolute;
+        }
+    
+        .button-top button{
+         margin-top: 200px;
+        padding: 12px;
+        border: 0px;
+    
+      }
+    
+      .button-top button a{
+        position: absolute;
+        border: 2px solid #FF4081;
+        border-radius: 62px;
+        padding: 20px;
+      }
+      
+      .newbox-2{
+        display: inline;
+      }
+      .nbox{
+        padding-top: 10%;
+        padding-left: 20px;
+        margin-right: 40px;
+        align-items: center;
+        margin-left: 42px;
+      }
+      .grid{
+
+        padding-top: 2px;
+    }
+    .test-img{
+        box-sizing: content-box;
+        width: 70px;
+        height: 70px;
+        margin-top: 150px;
+    }
+    .testemony-text p{
+        margin-top: 50px;
+        
+    }
+    .content-more h2{
+    font-size: 25px;
+    }
+    .more-flex{
+        display: block;
+    }
+    .content-one p span{
+        line-height: 18px;
+    }
+    .content-one img{
+        width: 150px;
+        height: 50%;
+    
+    }
+    .button-f-m{
+        padding-left: 25%;
+        }
   } 
   
 
