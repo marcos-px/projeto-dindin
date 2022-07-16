@@ -22,6 +22,9 @@
         line-height: 12px;
         padding-left: 50px;
       }
+    .titulo-top{
+        background: none;
+    }
 /* responsividade contato */
     .form{
         display: contents;
