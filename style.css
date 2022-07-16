@@ -260,12 +260,12 @@ margin-top: 20px;
     font-size: 18px;
     line-height: 20.68px;
 }
-.button-f{
-padding-left: 50%;
+.button-f-m{
+padding-left: 40%;
 padding-top: 40px;
 }
 
-.button-f button{
+.button-f-m button{
 box-sizing: border-box;
 border: 2px solid #FF4081;
 border-radius: 62px;
