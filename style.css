@@ -426,7 +426,6 @@ color: #F7F7F7;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-    text-transform: capitalize;
 }
 
 .cursos-h p{
@@ -613,5 +612,27 @@ padding: 10%;
 .flex-blog{
     display: flex;
     padding: 4% 10%;
-    
 }
+
+.frame-blog iframe{
+    border: 0px solid;
+    background-color: #C4C4C4;
+    width: 518px;
+    height: 259px;
+}
+
+.frame-blog h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    margin-top: 2%;
+}
+    
+.frame-blog p{
+font-weight: 300;
+font-size: 17px;
+line-height: 20px;
+margin-right: -1px;
+}
+

@@ -1,0 +1,163 @@
+@media screen and (max-width: 450px) {
+    /* responsividade blog */
+    .frame-blog p {
+      margin: 1em 2em;
+    }
+
+    .frame-blog iframe{
+        width: 118px;
+        height: 159px; 
+        padding-left: 100%;
+    }
+    .blog-container{
+        display: block;
+    }
+
+    .flex-blog{
+        display: block;
+    }
+    .frame-blog h2{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 12px;
+        padding-left: 50px;
+    }
+/* responsividade contato */
+    .form{
+        display: contents;
+    }
+
+    .form img{
+        width: 200px;
+    }
+    .form-contato{
+        display: contents;
+        margin-left: 20px;
+    }
+    .form-contato input{
+        width: 240px;
+        margin-left: 20px;
+    }
+    .message-form{
+        min-height: 200px;
+    }
+    .form-contato h1{
+        margin-left: 20px;
+    }
+    .btn-form{
+        margin-left: 20px;
+    }
+
+    /*responsividade curso*/
+    .curso-initial{
+        display: block;
+    }
+    .curso-investimento h1{
+    font-size: 30 px }
+
+    .curso-img{
+    display: none;
+    }
+
+    .box-aula-cursos{
+        display: block;
+        padding: 7%;
+    }
+    .curso-investimento p{
+        font-size: 14px;
+        font-weight: 300;
+        display: flex;
+        line-height: 12px;
+        margin-top: 14%;
+        }
+
+    hr{
+        width: 300px;
+
+    }
+    video{
+        padding: 40px;
+    }
+  } 
+
+  
+
+  @media screen and (min-width: 800px) {
+        /* responsividade blog */
+
+    .frame-blog p {
+      margin-right: 8px;
+    }
+
+    .frame-blog h2{
+        font-size: 40px;
+    }
+
+    .frame-blog iframe{
+        width: 218px;
+        height: 159px; 
+    }
+    .frame-blog h2{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 12px;
+    }
+    /* responsividade contato */
+
+    .form img{
+        width: 300px;
+        margin-right: 150px;
+    }
+    .form-contato{
+        display: contents;
+        margin-left: 20px;
+    }
+    .form-contato input{
+        width: 240px;
+        margin-left: 20px;
+    }
+    .message-form{
+        min-height: 200px;
+    }
+    .form-contato h1{
+        margin-left: 20px;
+    }
+    .btn-form{
+        margin-left: 20px;
+    }
+    /*responsividade curso*/
+    .curso-initial{
+        display: block;
+        justify-content: space-between;
+    }
+    .curso-investimento h1{
+    font-size: 30 px;
+    text-align: center;
+}
+
+    .curso-img{
+    display: none;
+        }
+
+    .box-aula-cursos{
+        display: block;
+        padding: 7%;
+    }
+    .curso-investimento p{
+        font-size: 14px;
+        font-weight: 300;
+        display: flex;
+        line-height: 12px;
+        margin-top: 14%;
+        }
+
+    hr{
+        width: 600px;
+
+    }
+    video{
+        padding: 40px;
+    }
+  } 
+  
+
