@@ -613,7 +613,7 @@ display: flex;
 justify-content: space-between;
 flex: auto;
 flex-wrap: nowrap;
-padding: 10%;
+padding: 20%;
 
 }
 
@@ -644,7 +644,7 @@ padding: 10%;
 .frame-blog iframe{
     border: 0px solid;
     background-color: #C4C4C4;
-    width: 518px;
+    width: 468px;
     height: 259px;
 }
 
