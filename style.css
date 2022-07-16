@@ -420,6 +420,7 @@ color: #F7F7F7;
 .cursos-h{
     margin-left: 82px;
     margin-top: 4%;
+
 }
 .cursos-h h1{
     color: #FF4081;
@@ -428,7 +429,7 @@ color: #F7F7F7;
     line-height: 69px;
 }
 
-.cursos-h p{
+.cursos-h span{
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -460,10 +461,15 @@ color: #FF4081;
     margin-top: 100px;
     background-color: #419488;
     border-radius: 62px;
-    color: #F7F7F7;
     font-size: 20px;
     border-color: #419488;
+}
+
+.box-content-cursos button span a{
+    text-decoration: none;
+    color: #F7F7F7;
     cursor: pointer;
+
 }
 
 .text-box-cursos{
