@@ -88,15 +88,15 @@ box-sizing: border-box;
 }
 
 .content{
-    align-items: center;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .titulo-top{
-    padding-left: 350px;
-    padding-right: 300px;
+    margin-left: 60px;
+    margin-right: 20px;
 }
+
 
 .titulo-top h1{
     margin-bottom: 20px;
@@ -116,14 +116,21 @@ padding-top: 12px;
 }
 
 .button-top button{
-    font-size: 27px;
     cursor: pointer;
     margin-top: 20px;
     border-radius: 62px;
     border: 2px solid #FF4081;
     padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.button-top button a{
+    text-decoration: none;
     color: #FF4081;
-    background-color: none;
+    font-size: 27px;
+}
+.img-top{
+    margin-left: 40px;
 }
 
 .newbox-2 {
@@ -132,26 +139,26 @@ padding-top: 12px;
     display: flex;
     background-color: #F7F7F7;
     padding: 140px;
+    align-items: center;
 }
 
-.nbox{
-    padding: 20px;
-}
+
 
 .newbox-2 h2{
     color: #FF4081;
     font-weight: 700;
-    font-size: 25px;
-    padding-top: 15px;
-
+    font-size: 20px;
+    margin-top: 35px;
+    align-items: center;
 }
 
 .newbox-2 p{
-    padding-top: 35px;
+    margin-top: 35px;
     font-size: 17px;
     line-height: 19.53px;
     font-weight: 300;
     text-align: center;
+    padding:10px;
 
 }
 
@@ -159,18 +166,19 @@ padding-top: 12px;
     align-items: center;
     width: 233px;
     height: 51px;
-    margin-top: 15px;
+    margin-top: 45px;
     background-color: #FF4081;
     border-radius: 62px;
-    color: #F7F7F7;
-    font-size: 20px;
     border-color: #FF4081;
     cursor: pointer;
 }
 
-.nbox button span{
+.nbox button span a{
 font-weight: 20.27px;
 padding: 20px;
+color: #F7F7F7;
+font-size: 20px;
+text-decoration: none;
 }
 
 /*testmony-container*/
@@ -270,12 +278,18 @@ box-sizing: border-box;
 border: 2px solid #FF4081;
 border-radius: 62px;
 font-weight: 400;
-font-size: 25px;
 line-height: 29px;
-color: #FF4081;
 padding: 10px;
 cursor: pointer;
 }
+
+.button-f-m button span a{
+font-size: 25px;
+color: #FF4081;
+text-decoration: none;
+    }
+
+
 /*footer*/
 
 .f-div{
@@ -610,7 +624,7 @@ padding: 10%;
     margin-top: 6%;
 }
 
-.blog-init h1,p{
+.blog-init h1 p{
     margin-right: 40%;
     margin-top: 10%;
 }
