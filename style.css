@@ -480,3 +480,58 @@ hr{
     width: 1244px;
     margin-left: 10%;
 }
+
+/*página curso*/
+
+.curso-initial{
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+.curso-investimento{
+    margin-right: 35%;
+}
+
+.curso-investimento h1{
+font-size: 55px;
+font-weight: 700;
+line-height: 63px;
+color: #FF4081;
+}
+
+.curso-investimento p{
+font-size: 20px;
+font-weight: 300;
+display: block;
+line-height: 23px;
+margin-top: 8%;
+}
+
+.container-aula{
+    align-items: center;
+}
+
+.box-aula-cursos{
+    display: flex;
+    padding: 7%;
+}
+
+.box-aula-cursos h2{
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+}
+
+.box-aula-cursos p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top:  20px;
+    margin-right: 25%;
+}
+
+iframe{
+    border: 3px solid #8E8E8E;
+}
