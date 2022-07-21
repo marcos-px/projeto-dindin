@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 *{  font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,9 @@ body{
     box-sizing: border-box;
     display: block;
     max-width: 1280px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .container{
@@ -29,6 +32,7 @@ body{
     display: flex;
     background: #2E948A;
     color:#FFFFFF;
+    width: 100%;
 }
 
 .link1{
@@ -87,6 +91,7 @@ box-sizing: border-box;
     margin-right: auto;
     box-sizing: border-box;
     display: block;
+    max-width: 1120px;
 }
 
 .content{
@@ -305,13 +310,13 @@ text-decoration: none;
 .footer{
     background-color: #2E948A;
     display: flex;
-    width: 400px;
+    width: 100%;
     height: 250px;
 }
 
 #footer-img{
-    padding-left: 150px;
-    margin-top: 60px;
+    display: block;
+    margin-left: 20px;
     
 }
 
@@ -357,11 +362,11 @@ border: 2px solid #FFFFFF;
 border-radius: 62px;
 cursor: pointer;
 margin-top: 30px;
-margin-left: 300px; 
+margin-left: 200px; 
 width: 289px;
 top: 50px;
 padding-left: 14px;
-margin-left: 100px0,0;
+margin-right: 100px;
 background-color: #2E948A;
 padding: 10px;
 
@@ -623,7 +628,7 @@ display: flex;
 justify-content: space-between;
 flex: auto;
 flex-wrap: nowrap;
-padding: 20%;
+padding: 10%;
 
 }
 

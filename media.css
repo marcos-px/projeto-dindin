@@ -4,6 +4,10 @@
       margin: 1em 2em;
     }
 
+    video{
+        display: none;
+    }
+
     .frame-blog iframe{
         width: 118px;
         height: 159px; 
