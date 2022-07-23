@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 360px) {
     /* responsividade blog */
     .frame-blog p {
       margin: 1em 2em;
@@ -217,9 +217,11 @@ video{
 }
 } 
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 700px) {
         /* responsividade blog */
-
+.header{
+    max-width: 100%;
+}
     .frame-blog p {
       margin-right: 8px;
     }
@@ -377,4 +379,168 @@ video{
         }
   } 
   
+
+  @media screen and (min-width: 700px) {
+
+    body{
+        max-width: 50%;
+    }
+    /* responsividade blog */
+
+.frame-blog p {
+  margin-right: 8px;
+}
+
+.frame-blog h2{
+    font-size: 40px;
+}
+
+.frame-blog iframe{
+    width: 218px;
+    height: 159px; 
+}
+.frame-blog h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+}
+/* responsividade contato */
+
+.form img{
+    width: 300px;
+    margin-right: 150px;
+}
+.form-contato{
+    display: contents;
+    margin-left: 20px;
+}
+.form-contato input{
+    width: 240px;
+    margin-left: 20px;
+}
+.message-form{
+    min-height: 200px;
+}
+.form-contato h1{
+    margin-left: 20px;
+}
+.btn-form{
+    margin-left: 20px;
+}
+/*responsividade curso*/
+.curso-initial{
+    display: block;
+    justify-content: space-between;
+}
+.curso-investimento h1{
+font-size: 30 px;
+text-align: center;
+}
+
+.curso-img{
+display: none;
+    }
+
+.box-aula-cursos{
+    display: block;
+    padding: 7%;
+}
+.curso-investimento p{
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    line-height: 12px;
+    margin-top: 14%;
+    }
+
+hr{
+    width: 600px;
+
+}
+video{
+    padding: 40px;
+}
+
+    /*responsividade do index*/
+    .content{
+        display: block;
+    }
+    .img-top{
+        display: none;
+        position: relative;
+    }
+
+    .titulo-top h1{
+        font-size: 30px;
+        line-height: 25px;
+        position: relative;
+    }
+
+    .titulo-top p{
+        font-size: 20px;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .button-top button{
+     margin-top: 200px;
+    padding: 12px;
+    border: 0px;
+
+  }
+
+  .button-top button a{
+    position: absolute;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 20px;
+  }
+  
+  .newbox-2{
+    display: inline;
+  }
+  .nbox{
+    padding-top: 10%;
+    padding-left: 20px;
+    margin-right: 40px;
+    align-items: center;
+    margin-left: 42px;
+  }
+  .grid{
+
+    padding-top: 2px;
+}
+.test-img{
+    box-sizing: content-box;
+    width: 70px;
+    height: 70px;
+    margin-top: 150px;
+}
+.testemony-text p{
+    margin-top: 50px;
+    
+}
+.content-more h2{
+font-size: 25px;
+}
+.more-flex{
+    display: block;
+}
+.content-one p span{
+    line-height: 18px;
+}
+.content-one img{
+    width: 150px;
+    height: 50%;
+
+}
+.button-f-m{
+    padding-left: 25%;
+    }
+.list-menu{
+        display: block;
+        justify-content: center;
+        margin-left: 35%;
+    }
+} 
 

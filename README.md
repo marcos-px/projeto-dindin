@@ -49,8 +49,6 @@ O layout da aplicação está disponível no Figma:
 - [x] CSS.
 - [x] Responsividade.
 
-<hr>
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -59,6 +57,50 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS3]
 
 <hr>
+
+<h1>Sobre a responsividade</h1>
+
+### ✔️ Dispositivos simulados:
+
+- [x] Xiaomi MI9T.
+- [x] SMARTV JVC 50".
+- [x] SMARTV LG 50".
+- [x] SAMSUNG A51.
+- [x] LENOVO IDEAPAD 320.
+- [x] TELA LG 800px.
+- [x] MACBOOK AIR.
+  [x] IPAD PRO 11.
+- [x] PHONE X.
+
+<span>Foi uitlizado a extensão <a href="https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk">mobile simulator</a> para simular a responsividade em diversos dispositivos, como segue abaixo:</span>
+<br>
+
+<h2>Responsividade para mobile </h2>
+<br>
+
+<img src="pics\X5-READ.png" widht="400px">
+
+<h2>Responsividade para portáteis</h2>
+<br>
+
+<img src="pics\notebook.png" widht="400px">
+
+<h2>Responsividade para tablet</h2>
+<img src="pics\tablet.png" widht="400px">
+
+<h2>Responsividade para Desktop</h2>
+<img src="pics\desktop.png" widht="400px">
+
+
+<h2>Responsividade para TV e monitores maiores, centralizando o body:</h2>
+<br>
+
+
+<img src="pics\tela.png" widht="400px">
+
+<br>
+
+
 
 ### Autor
 ---
