@@ -78,20 +78,20 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h2>Responsividade para mobile </h2>
 <br>
 <p align="center">
-<img height="600px" src="pics\X5-READ.png" widht="400px"></p>
+<img src="pics\X5-READ.png" widht="400px"></p>
 
 <h2>Responsividade para portáteis</h2>
 <br>
 <p align="center">
-<img height="600px" src="pics\notebook.png" widht="400px"></p>
+<img src="pics\notebook.png" widht="400px"></p>
 
 <h2>Responsividade para tablet</h2>
 <p align="center">
-<img height="600px" src="pics\tablet.png" widht="400px"></p>
+<img src="pics\tablet.png" widht="400px"></p>
 
 <h2>Responsividade para Desktop</h2>
 <p align="center">
-<img height="600px" src="pics\desktop.png" widht="400px"></p>
+<img src="pics\desktop.png" widht="400px"></p>
 
 
 <h2>Responsividade para TV e monitores maiores, centralizando o body:</h2>
