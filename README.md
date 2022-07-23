@@ -97,7 +97,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h2>Responsividade para TV e monitores maiores, centralizando o body:</h2>
 <br>
 <p align="center">
-<img height="600px" src="pics\tela.png" widht="400px"> </p>
+<img src="pics\tela.png" widht="400px"> </p>
 
 <br>
 
