@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="pics/logo-footer.png" ></p>
+<img align="center" src="pics\padraogit.png"></p>
 
 <p align="center">Projeto solicitado no XP 44 da <a href="https://gama.academy"> Gama Academy</a>. Criação em HTML5 e CSS3.</p>
 <hr>
